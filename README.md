@@ -4,10 +4,6 @@ Using Convolutional Neural Network, I have implemented a classifier which detect
 # Dataset
   1) Positive Cases : https://github.com/ieee8023/covid-chestxray-dataset
   2) Normal Cases : https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
-
-# Kaggle Notebook Link (Support Please 👍👍👍)
-  Link : https://www.kaggle.com/fusicfenta/covid-19-detection-using-chest-x-ray
-  (If you liked this notebook then don't forget to give upvote on kaggle.)
 # Network Architecture
     Model: "sequential_1"
     
@@ -34,28 +30,3 @@ Using Convolutional Neural Network, I have implemented a classifier which detect
     Total params: 1,457,537
     Trainable params: 1,457,537
     Non-trainable params: 0
-    
-## Accuracy
-![](MediaImages/Accuracy.PNG)
-
-## Confusion Matrix (0 for Positive and 1 for Negative cases)
-![](MediaImages/New_Confusion_Matrix.PNG)
-
-## Prediction of Covid-19 Positive Case
-![](MediaImages/Poisi_Out.PNG)
-
-## Prediction of Covid-19 Negative Case
-![](MediaImages/Negi_Out.PNG)
-
-# Run
-Steps to Execute the Project
-    
-    1) Open CMD in directory where "app.py" is stored (Basically, Open CMD to this folder)
-    
-    2) enter : python app.py
-    
-    3) Open Specified URL which is given to you in CMD in running process
-    
-    4) Upload Any Chest XRay Image and click "Predict"
-    
-    5) To stop serving, press CTRL+C
